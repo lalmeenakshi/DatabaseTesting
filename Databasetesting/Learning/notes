@@ -1,0 +1,14 @@
+SQL-SQL is divided into-
+Data Definition Language (DDL)- create,alter,drop
+Data Manipulation Language (DML)-select,insert,update,delete
+Trasaction Control Language (TCL)-commit,rollback
+Data Control Language(DCL)-grant,revoke
+2 component for database - database server(remote location,it has database), database client(SQL developer).
+JDBC-download database driver and associate it with project. Every database has their driver.
+Steps-
+1.create connection between database and java program by Connection class.
+2.generate statement/query(delete,update....) by Statement class.
+3.execute the statement by particular connection by executeMethod present in Statement
+4.close the connection
+insert,delete,update are unidirectional command(no output from database).
+select command is 2 directional.For this we need additional class ResultSet.
